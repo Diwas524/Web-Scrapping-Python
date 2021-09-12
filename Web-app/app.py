@@ -70,20 +70,12 @@ def shortenurl():
             count=count + 1
             if string.rstrip():
                 w=w+("<p>"+string+"<p>")
-                if count==3:
-                    w=w+"<br>"+"<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2532272560785706\"crossorigin=\"anonymous\"></script><!-- free post 1 --> <ins class=\"adsbygoogle\" style=\"display:block\" data-ad-client=\"ca-pub-2532272560785706\" data-ad-slot=\"9861387772\" data-ad-format=\"auto\" data-full-width-responsive=\"true\"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>"+" <br>"
-                if count==6:
-                    w=w+"<br>"+"<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2532272560785706\" crossorigin=\"anonymous\"></script> <ins class=\"adsbygoogle\" style=\"display:block\" data-ad-format=\"fluid\" data-ad-layout-key=\"-fb+5w+4e-db+86\" data-ad-client=\"ca-pub-2532272560785706\" data-ad-slot=\"8682029862\"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>"+"<br>"
-                if count==10:
-                    w=w+"<br>"+"<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2532272560785706\" crossorigin=\"anonymous\"></script> <ins class=\"adsbygoogle\" style=\"display:block; text-align:center;\" data-ad-layout=\"in-article\" data-ad-format=\"fluid\" data-ad-client=\"ca-pub-2532272560785706\" data-ad-slot=\"3912918919\"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>"+"<br>"
-
-    w=w+"<br>"+"<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2532272560785706\" crossorigin=\"anonymous\"></script> <!-- before enroll now --> <ins class=\"adsbygoogle\" style=\"display:block\" data-ad-client=\"ca-pub-2532272560785706\" data-ad-slot=\"7147594527\" data-ad-format=\"auto\" data-full-width-responsive=\"true\"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>" +"<br>"
-                    
+                            
     w=w + "\n" + "<a href="+aa+" target=\"_blank\"><button style=\"background-color: #008CBA;\">GET COUPON CODE</button></a>"
     #print(aa)
-    user = 'admin'
-    pythonapp = 'pwTY KpuG 8BJp oLh5 JbNq ZzbT'
-    url = 'https://allcoursefree.com/wp-json/wp/v2'
+    user = '#'
+    pythonapp = '#'
+    url = '#'
     credentials = user + ':' + pythonapp
 
     token = base64.b64encode(credentials.encode())
